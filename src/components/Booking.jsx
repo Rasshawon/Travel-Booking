@@ -39,7 +39,7 @@ const Booking = () => {
   };
   return (
     <div className="md:mt-[300px] mt-[180px] mx-4 relative">
-      <div className="bg-indigo-200 font-semibold rounded-md max-w-6xl w-full mx-auto">
+      <div className="bg-indigo-400 font-semibold rounded-md max-w-6xl w-full mx-auto">
         <form className="flex flex-col md:flex-row">
           {/* destination from*/}
           <div className="py-1.5 px-2.5 flex-1 border-r-2">
@@ -48,7 +48,7 @@ const Booking = () => {
               <select required onChange={(e) => handleChange(e)}
                 name="from"
                 id="from"
-                className="bg-indigo-100 outline-none p-2 w-full"
+                className="bg-indigo-200 outline-none p-2 w-full"
               >
                 <option value="hidden">Please Select </option>
                 <option>Cox Bazar</option>
@@ -67,7 +67,7 @@ const Booking = () => {
               <select required onChange={(e) => handleChange(e)}
                 name="to"
                 id="to"
-                className="bg-indigo-100 outline-none p-2 w-full"
+                className="bg-indigo-200 outline-none p-2 w-full"
               >
                 <option value="hidden">Please Select </option>
                 <option>Cox Bazar</option>
@@ -85,7 +85,7 @@ const Booking = () => {
             <input  required onChange={(e) => handleChange(e)}
               type="date"
               name="date"
-              className="bg-indigo-100 outline-none p-2 w-full"
+              className="bg-indigo-200 outline-none p-2 w-full"
             />
           </div>
           {/* Individuals*/}
@@ -95,7 +95,7 @@ const Booking = () => {
               <select  required onChange={(e) => handleChange(e)}
                 name="individuals"
                 id="individuals"
-                className="bg-indigo-100 outline-none p-2 w-full"
+                className="bg-indigo-200 outline-none p-2 w-full"
               >
                 <option value="hidden">Please Select </option>
                 <option>1 Person</option>
@@ -112,7 +112,7 @@ const Booking = () => {
               <select required onChange={(e) => handleChange(e)}
                 name="classType"
                 id="classType"
-                className="bg-indigo-100 outline-none p-2 w-full"
+                className="bg-indigo-200 outline-none p-2 w-full"
               >
                 <option value="hidden">Please Select </option>
                 <option>Business</option>
