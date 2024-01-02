@@ -18,7 +18,7 @@ const Table = () => {
           <div className="overflow-x-auto">
             <table className="table">
               {/* head */}
-              <thead className="bg-indigo-200 font-semibold text-sm w-full  text-black rounded-sm"> 
+              <thead className="bg-indigo-400 font-semibold text-sm w-full  text-black rounded-sm"> 
                 <tr>
                   <th>Destination From</th>
                   <th>Destination To</th>
@@ -31,7 +31,7 @@ const Table = () => {
               <tbody>
                 {
                     data.map((data,index)=>(
-                  <tr key={index} className="bg-indigo-100 text-md font-semibold">
+                  <tr key={index} className="bg-indigo-200 text-md font-semibold">
                   <td>{data.from}</td>
                   <td>{data.to}</td>
                   <td>{data.date}</td>
